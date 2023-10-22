@@ -35,4 +35,4 @@ jobs:
           context: .
           push: true
           target: final
-          tags: ${{ github.event.repository.name }}:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/${{ dotnet.docker }}:latest
