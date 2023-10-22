@@ -35,4 +35,3 @@ jobs:
           context: .
           push: true
           target: final
-          tags: kittynyla/${{ github.event.repository.name }}:latest
